@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -21,6 +22,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int wavePeriod;
     [SerializeField] private int gold;
     [SerializeField] private float health;
+    
+    [Header("Another")]
+    [SerializeField] private float textAnimationTime;
 
     [SerializeField] private GameObject[] spawners;
 
@@ -30,9 +34,60 @@ public class GameManager : MonoBehaviour
     private int _currentWave;
     private bool _gameover;
 
+    private string _wavesPrefix = "WAVES REMAINIG: ";
+    private string _goldPrefix = "GOLD: ";
+    private string _healthPrefix = "HEALTH: ";
+
     public int CreepsPerWave => creepsPerWave;
-    public int Gold => gold;
+
+    public int Gold
+    {
+        get { return gold; }
+        set
+        {
+            var delta = value - gold;
+            
+            gold = value;
     
+            goldText.DOKill();
+            float deltaTime = 0f;
+            goldText.DOFade(1f, textAnimationTime).OnUpdate(() =>
+            {
+                deltaTime += Time.deltaTime;
+                var newTime = delta * (1 - deltaTime / textAnimationTime);
+
+                SetText(gold - delta + (delta - newTime), goldText, _goldPrefix);
+            }).OnComplete(() => { SetText(gold, goldText, _goldPrefix); });
+        }
+    }
+
+    public float Health
+    {
+        get => health;
+        set
+        {
+            var delta = value - health;
+            if (value <= 0)
+            {
+                health = 0;
+                return;
+            }
+            
+            health = value;
+            
+            healthText.DOKill();
+            float deltaTime = 0f;
+            
+            healthText.DOFade(1f, textAnimationTime).OnUpdate(() =>
+            {
+                deltaTime += Time.deltaTime;
+                var newTime = delta * (1 - deltaTime / textAnimationTime);
+
+                SetText(health - delta + (delta - newTime), healthText, _healthPrefix);
+            }).OnComplete(() => { SetText(health, healthText, _healthPrefix); });
+        }
+    }
+
     private void Awake()
     {
         if (Instance != null)
@@ -46,9 +101,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {        
-        healthText.text = "HEALTH: " + health;
-        wavesText.text = "WAVES: " + wavesCount;
-        goldText.text = "GOLD: " + gold;
+        healthText.text = _healthPrefix + health;
+        wavesText.text = _wavesPrefix + wavesCount;
+        goldText.text = _goldPrefix + gold;
         
         _spawnerControllers = new SpawnerController[spawners.Length];
         for (int i = 0; i < _spawnerControllers.Length; i++)
@@ -65,23 +120,18 @@ public class GameManager : MonoBehaviour
     
     public void OnTowerSelled(int price)
     {
-        gold += price / 2;
-        goldText.text = "GOLD: " + gold;
+        Gold += price / 2;
     }
 
     public void OnTowerBuyed(int price)
     {
-        gold -= price;
-        goldText.text = "GOLD: " + gold;
+        Gold -= price;
     }
 
     public void OnBaseAttacked(float damage)
     {
-        health -= damage;
-        healthText.text = "HEALTH: " + health;
-        
+        Health -= damage;
         RemoveCreep();
-        
         if (health <= 0)
         {
             GameOver();
@@ -90,7 +140,7 @@ public class GameManager : MonoBehaviour
 
     public void OnCreepKilled(int goldGiven)
     {
-        gold += goldGiven;
+        Gold += goldGiven;
         goldText.text = "GOLD: " + gold;
         RemoveCreep();
     }
@@ -159,5 +209,10 @@ public class GameManager : MonoBehaviour
     public void Menu()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    private void SetText(float value, Text text, string prefix = "")
+    {
+        text.text = string.Format("{0}{1}", prefix, Mathf.Round(value));
     }
 }

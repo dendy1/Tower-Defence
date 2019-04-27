@@ -29,7 +29,7 @@ public class CreepController : MonoBehaviour
     {
         Died = new UnityEvent();
         BaseAttacked = new UnityEvent();
-        
+
         BaseAttacked.AddListener(() => GameManager.Instance.OnBaseAttacked(damage));
         Died.AddListener(() => GameManager.Instance.OnCreepKilled(gold));
     }
@@ -69,7 +69,7 @@ public class CreepController : MonoBehaviour
             BaseAttacked?.Invoke();
             _currentWaypoint = 0;
             _health = 100f;
-           
+            healthBar.fillAmount = 1;
             GetComponent<PoolObject>().ReturnToPool();
         }
     }
@@ -91,7 +91,7 @@ public class CreepController : MonoBehaviour
         if (_health <= 0)
         {
             Died?.Invoke();
-
+            healthBar.fillAmount = 1;
             _currentWaypoint = 0;
             _health = 100f;
 
