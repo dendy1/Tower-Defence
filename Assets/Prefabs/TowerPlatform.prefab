@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9112897677914512110}
   - component: {fileID: 7123983462905855736}
   - component: {fileID: 2780700597571217164}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TowerPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,9 +66,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9112897677914512110}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
       propertyPath: m_Name
       value: blockMoving
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -83,6 +95,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -93,14 +109,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0d884116420ac9d4f99ff654d75969b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

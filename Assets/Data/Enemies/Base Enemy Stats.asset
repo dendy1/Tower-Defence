@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d4dbf43edbd234797ca4ad54777c40, type: 3}
+  m_Name: Base Enemy Stats
+  m_EditorClassIdentifier: 
+  deathParticles: {fileID: 2479331104132061604, guid: c0376e37c239dd4479912fa4ed2b7ad2,
+    type: 3}
+  hitParticles: {fileID: 2479331104132061604, guid: b06877009411e2144b5891c03dc4f8e6,
+    type: 3}
+  destinationReachedParticles: {fileID: 0}
+  health: 300
+  damage: 5
+  currency: 10
+  speed: 1

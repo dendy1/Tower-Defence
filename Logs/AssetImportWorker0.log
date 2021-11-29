@@ -1,0 +1,1605 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.2f1 (e5d502d80fbb) revision 15062274'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 22000.318; Version 2009; 64bit' Language: 'ru' Physical Memory: 16320 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Projects/Unity/Tower-Defence
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+10509
+Successfully changed project path to: F:/Projects/Unity/Tower-Defence
+F:/Projects/Unity/Tower-Defence
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Projects/Unity/Tower-Defence/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 670 (ID=0x1189)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001209 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.658 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1727 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2167.
+Total: 5.266200 ms (FindLiveObjects: 0.207600 ms CreateObjectMapping: 0.045600 ms MarkObjects: 4.948200 ms  DeleteObjects: 0.063700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/QUIT.png
+  artifactKey: Guid(bfdc9093ae1bd4c409637f48193d9022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/QUIT.png using Guid(bfdc9093ae1bd4c409637f48193d9022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a791072c0bca428c7e34e868539d40') in 0.173308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/NO.png
+  artifactKey: Guid(bebf3b5259947544fb0103200a92b8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/NO.png using Guid(bebf3b5259947544fb0103200a92b8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc4de2bc949b8308d0b32c089c4cb60') in 0.051404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sprites/StartGame.png
+  artifactKey: Guid(1e86ddccbeb1f8144a09b4f6b9c6ad9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StartGame.png using Guid(1e86ddccbeb1f8144a09b4f6b9c6ad9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e475c6291374aac82c4b4d82ed1cce26') in 0.043953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/YES.png
+  artifactKey: Guid(6a37871f2af112441bab8011ee6f72f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/YES.png using Guid(6a37871f2af112441bab8011ee6f72f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad41d69d67afbd9c42282b6c9b92719') in 0.028087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/BACK.png
+  artifactKey: Guid(23563cade6208e54597fa28b9467230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BACK.png using Guid(23563cade6208e54597fa28b9467230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad4cfa3d94ee6acc26dd9086a6117e5') in 0.031750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.948337 seconds.
+  path: Assets/Data/Level 1/Wave.asset
+  artifactKey: Guid(57683750a0e7d5c4dbbeb8683fed7602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Level 1/Wave.asset using Guid(57683750a0e7d5c4dbbeb8683fed7602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d01aeed7444bc720924d006c82b6174') in 0.562102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Data/Level 1/TowerLibrary.asset
+  artifactKey: Guid(bc0aa9c781ad5cd4b94203d00d3d8626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Level 1/TowerLibrary.asset using Guid(bc0aa9c781ad5cd4b94203d00d3d8626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7155135cb6079a7dbbc17859cbcd9b9f') in 0.306544 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 5.254600 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.046500 ms MarkObjects: 4.969100 ms  DeleteObjects: 0.025500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 5.352300 ms (FindLiveObjects: 0.293700 ms CreateObjectMapping: 0.051500 ms MarkObjects: 4.988800 ms  DeleteObjects: 0.016700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 5.433000 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.047300 ms MarkObjects: 5.172000 ms  DeleteObjects: 0.027000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.136619 seconds.
+  path: Assets/Data/Towers/Missle Launcher Stats.asset
+  artifactKey: Guid(6295ca6530ad533438e0fa4a97ceb589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Towers/Missle Launcher Stats.asset using Guid(6295ca6530ad533438e0fa4a97ceb589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f843dcbc70972ccdf833d5e3793963') in 0.015991 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 5.156900 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.047500 ms MarkObjects: 4.889300 ms  DeleteObjects: 0.026700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 4.889300 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.046200 ms MarkObjects: 4.617400 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 5.423100 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.040800 ms MarkObjects: 5.177100 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 443.221659 seconds.
+  path: Assets/Scenes/Level_1.unity
+  artifactKey: Guid(e12cd40f38de55249aa43ae577010268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1.unity using Guid(e12cd40f38de55249aa43ae577010268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb4b131cbd6c2e7a429ba66486a6154') in 0.011868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.936485 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(e8db3ed1fb6383a4ca691ca4a05b4853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(e8db3ed1fb6383a4ca691ca4a05b4853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee9ec7cc9d396b58a8f38dde7e180f7') in 0.015777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447014 seconds.
+  path: Assets/Scenes/MenuSettings.lighting
+  artifactKey: Guid(dc8f9682b0348834cb8f1a791dbc3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuSettings.lighting using Guid(dc8f9682b0348834cb8f1a791dbc3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd6a0f767de4cc92cfd0d23f3ad468d') in 0.003503 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001310 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 5.138000 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.047300 ms MarkObjects: 4.758200 ms  DeleteObjects: 0.019500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.487340 seconds.
+  path: Assets/Scenes/Level_1 1.unity
+  artifactKey: Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1 1.unity using Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69cbea11691e8b41e6a7a13eaa22654') in 0.009600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.943941 seconds.
+  path: Assets/Scenes/NewMenu.unity
+  artifactKey: Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewMenu.unity using Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe3abd52199e6a1bfe4abe25110af45') in 0.001482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.022670 seconds.
+  path: Assets/Scenes/NewMenu.unity
+  artifactKey: Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewMenu.unity using Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f310915f59b8433438a1e0528f77f64') in 0.001333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.405907 seconds.
+  path: Assets/Scenes/NewMenu.unity
+  artifactKey: Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewMenu.unity using Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd8826f32a6e8b216a9b26d85593f13') in 0.001716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.804686 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(e8db3ed1fb6383a4ca691ca4a05b4853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(e8db3ed1fb6383a4ca691ca4a05b4853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50e0591d4573b0105b80986a480e27a') in 0.001509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.265903 seconds.
+  path: Assets/Scenes/NewMenu.unity
+  artifactKey: Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewMenu.unity using Guid(80599a5e954fe604aa7aa9b7ca338cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbce96a087b396ec7a6920f8f80587af') in 0.001264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.837481 seconds.
+  path: Assets/Models/Enemies/Cute Animated Monsters/Materials/Bat.mat
+  artifactKey: Guid(c9e24084a96e2164a85f966e5ce6f2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Cute Animated Monsters/Materials/Bat.mat using Guid(c9e24084a96e2164a85f966e5ce6f2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15c77b59c49125d3e1e6d5b9efb97e0') in 0.085241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_3.fbx
+  artifactKey: Guid(ea0afab8a5e7026448c0a5223a45814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_3.fbx using Guid(ea0afab8a5e7026448c0a5223a45814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fb52fab877fca9c04c095c3594e836') in 0.193839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BushBerries_1.fbx
+  artifactKey: Guid(814f2e89fc1365e4a9dd58fcd1e0e043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BushBerries_1.fbx using Guid(814f2e89fc1365e4a9dd58fcd1e0e043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992a7645af3bc4dd151d721a1a39956a') in 0.184832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/Towers/Turrets/Gun.fbx
+  artifactKey: Guid(ff6da88aac38a8841870b41302e95d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun.fbx using Guid(ff6da88aac38a8841870b41302e95d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e7f836b6ab68845f55b9b3a9f512a5') in 0.102764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_5.fbx
+  artifactKey: Guid(6079fbfd0620d754683285e0f09ecfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_5.fbx using Guid(6079fbfd0620d754683285e0f09ecfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d233f58124f4f4067420edc464b6420') in 0.079295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_2.fbx
+  artifactKey: Guid(a18f97d68a2c6f14bb395edaa52066ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_2.fbx using Guid(a18f97d68a2c6f14bb395edaa52066ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e605ed2d13a4d020572f53b051f5c55') in 0.055774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_5.fbx
+  artifactKey: Guid(c46ebcaa849ffd347af3f18af1bfee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_5.fbx using Guid(c46ebcaa849ffd347af3f18af1bfee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86a2ffd361b2eeabf337861abdcab49') in 0.073291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_5.fbx
+  artifactKey: Guid(fbc5e0491ce9c1647a2ba9f75a74ee29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_5.fbx using Guid(fbc5e0491ce9c1647a2ba9f75a74ee29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3187ad5227de91a0f8e050e2fb477232') in 0.052725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models/Towers/Turrets/Teleporter4.fbx
+  artifactKey: Guid(479229a14817f54479b1fd30e35ca7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Teleporter4.fbx using Guid(479229a14817f54479b1fd30e35ca7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85db887751dd217e481889e60cdb7245') in 0.076914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Towers/Turrets/Laser_Quad.fbx
+  artifactKey: Guid(622bdcc8695f1f74490b6fbda08cda86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Laser_Quad.fbx using Guid(622bdcc8695f1f74490b6fbda08cda86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab357ed45aa31fba41f95885403f027e') in 0.074710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_4.fbx
+  artifactKey: Guid(a18b09fe522b59746adf6b55dc21b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_4.fbx using Guid(a18b09fe522b59746adf6b55dc21b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b787a4a90e85534817c9b96c50a955') in 0.062169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_4.fbx
+  artifactKey: Guid(1459e301cd3971041b598d5befb25d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_4.fbx using Guid(1459e301cd3971041b598d5befb25d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea11df0745e9e48b7de1897447fd94d') in 0.114147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PalmTree_2.fbx
+  artifactKey: Guid(a737cbd915f2dcb4cad4f3d4b7c4a837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PalmTree_2.fbx using Guid(a737cbd915f2dcb4cad4f3d4b7c4a837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2331f98a2466eb4efdb7bd7227fcc92') in 0.038027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Models/Towers/Turrets/GearCannon_2.fbx
+  artifactKey: Guid(c4be32c75d6b18e42a2f1a338f0adb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/GearCannon_2.fbx using Guid(c4be32c75d6b18e42a2f1a338f0adb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733173bd34d96fbdf5660ea2b75123c1') in 0.131045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_2.fbx
+  artifactKey: Guid(356edfe70bfe77a40a8eb0fd07294624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_2.fbx using Guid(356edfe70bfe77a40a8eb0fd07294624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f576b2dec2943e3af0a81d41b0a9dab0') in 0.147494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Tree2.fbx
+  artifactKey: Guid(1262c16251562014b8757752eeb315e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Tree2.fbx using Guid(1262c16251562014b8757752eeb315e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fa4daeab1f447abd37e263ed0d9e38') in 0.194904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Enemies/Cute Animated Monsters/Materials/Mushroom.mat
+  artifactKey: Guid(00308df69df7fcd49a72109830ecc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Cute Animated Monsters/Materials/Mushroom.mat using Guid(00308df69df7fcd49a72109830ecc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b591a5e800471f2ceb3e9f171317fa6') in 0.005951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/WoodLog_Snow.fbx
+  artifactKey: Guid(e4d3efc571100164a8b744d7512e4ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/WoodLog_Snow.fbx using Guid(e4d3efc571100164a8b744d7512e4ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb89de527e53fe30446f9c25897ff4d6') in 0.059755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_4.fbx
+  artifactKey: Guid(eeefdafbab1a9474ca4865b2850aba6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_4.fbx using Guid(eeefdafbab1a9474ca4865b2850aba6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5a2e9351155bf54967cf9afd751564') in 0.035616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_1.fbx
+  artifactKey: Guid(c2c58d916709945459ff7915fe92ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_1.fbx using Guid(c2c58d916709945459ff7915fe92ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6228c584d15eabc98358430b3f8f0d0') in 0.064152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Bush3.fbx
+  artifactKey: Guid(5e0d9ba9d1da3e649a52c569be9eb29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Bush3.fbx using Guid(5e0d9ba9d1da3e649a52c569be9eb29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d7bcf1c7f37b762494dad41c9fcedc') in 0.064605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_3.fbx
+  artifactKey: Guid(4513faa500109734bb7cbcf9d7e127b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_3.fbx using Guid(4513faa500109734bb7cbcf9d7e127b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8744fbaa2d700e58f9a20d9d6393b047') in 0.131091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_1.fbx
+  artifactKey: Guid(e178839e0e128844580279faf441d6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_1.fbx using Guid(e178839e0e128844580279faf441d6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a048fe64cb549a4f272a42843eafcc5') in 0.020375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_2.fbx
+  artifactKey: Guid(f269131f2f4ee7c47ac156c9ada62191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_2.fbx using Guid(f269131f2f4ee7c47ac156c9ada62191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8942892c0c419d7eb92a5777c4258b') in 0.042124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_3.fbx
+  artifactKey: Guid(4ccd513a58f620d4499c061889e0476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_3.fbx using Guid(4ccd513a58f620d4499c061889e0476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd734689128a6ee8c3a4d174f520894ee') in 0.057313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_4.fbx
+  artifactKey: Guid(2edac21dead26ca4e93ac4b4fb6915d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_4.fbx using Guid(2edac21dead26ca4e93ac4b4fb6915d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055628d7da74b2dc4505b74e75e073a3') in 0.063885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_4.fbx
+  artifactKey: Guid(7a1d881c62c503a46ac4205254b70882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_4.fbx using Guid(7a1d881c62c503a46ac4205254b70882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8117194c382a7a95d1c52df76937c9d9') in 0.049755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Plant_3.fbx
+  artifactKey: Guid(1d40a8f35bfe488469eb5968e7e78d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Plant_3.fbx using Guid(1d40a8f35bfe488469eb5968e7e78d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685d98184026626e567abec8917b1c5f') in 0.041373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_5.fbx
+  artifactKey: Guid(346704d4a1ba1f847a598391eb54f6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_5.fbx using Guid(346704d4a1ba1f847a598391eb54f6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842eec531e025fc11c4a62a64ed5022b') in 0.125788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models/Towers/Turrets/Upwards_1.fbx
+  artifactKey: Guid(db91ab3cb912d9b4cb35bc9625944473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Upwards_1.fbx using Guid(db91ab3cb912d9b4cb35bc9625944473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3955ea796682ef9e6c7df568e0c1c0f') in 0.146697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_3.fbx
+  artifactKey: Guid(79b37cbee31e00a4783caa6d75adb4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_3.fbx using Guid(79b37cbee31e00a4783caa6d75adb4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9456160a5b3c630fe9758a7462159115') in 0.058826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Models/Towers/Turrets/Teleporter1.fbx
+  artifactKey: Guid(38c743c69b7d66249bd3de5f385f2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Teleporter1.fbx using Guid(38c743c69b7d66249bd3de5f385f2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07bcd85d8dd323ed760bb904c7b32b3') in 0.064333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_5.fbx
+  artifactKey: Guid(07a24e3555d8a214d8279ecdaa92c11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_5.fbx using Guid(07a24e3555d8a214d8279ecdaa92c11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9056688887b6c33395011a63601851') in 0.025610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Lilypad.fbx
+  artifactKey: Guid(a8d36109fb060084287ff814549ca1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Lilypad.fbx using Guid(a8d36109fb060084287ff814549ca1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a266e0e31d0e7d69277e7ee35725fd71') in 0.060558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CactusFlowers_5.fbx
+  artifactKey: Guid(b64fb13b95fc07b489c32f7c8c7b4e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CactusFlowers_5.fbx using Guid(b64fb13b95fc07b489c32f7c8c7b4e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce4a769428079fcbd3d5ca4dc97ec2a') in 0.051089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_4.fbx
+  artifactKey: Guid(9156d564398bb8b43a35b916ae2c91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_4.fbx using Guid(9156d564398bb8b43a35b916ae2c91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02fc937d721e18b6ff4516ed2dd620d') in 0.057351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CactusFlowers_2.fbx
+  artifactKey: Guid(4052d4c0514e1fb45bc56f58ad3a7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CactusFlowers_2.fbx using Guid(4052d4c0514e1fb45bc56f58ad3a7840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cd7996873612bcfa95745ac0198504') in 0.088572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_3.fbx
+  artifactKey: Guid(1838f3c500b531b428b67e1d1cbf2185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_3.fbx using Guid(1838f3c500b531b428b67e1d1cbf2185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681caecd797dd367dbf6d098ec1ba304') in 0.052261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_2.fbx
+  artifactKey: Guid(d84e70b9533368f4695072b8aaa92513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_2.fbx using Guid(d84e70b9533368f4695072b8aaa92513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a567ef4d17a8d66ab1a8b844017b78a') in 0.069076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Models/Towers/Turrets/Cannon_7.fbx
+  artifactKey: Guid(c33ba746a07f77a4f8feffcac885d0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Cannon_7.fbx using Guid(c33ba746a07f77a4f8feffcac885d0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c66d21dff48b15999afc75fd003a006') in 0.122748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_9.fbx
+  artifactKey: Guid(aafcc2c357867b044bb47511a713089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_9.fbx using Guid(aafcc2c357867b044bb47511a713089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11967b1b9d47388c1e85fda0c25e368') in 0.057551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Bush_1.fbx
+  artifactKey: Guid(48f2e35e39a31f142ab46b74b83a26fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Bush_1.fbx using Guid(48f2e35e39a31f142ab46b74b83a26fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f03aca0eb86574649f95541ef33ccb7') in 0.056309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_3.fbx
+  artifactKey: Guid(9b332a21c1f4fe4479a64ad2f861bbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_3.fbx using Guid(9b332a21c1f4fe4479a64ad2f861bbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c068d738d215eccd0c644d31e9c4d0d') in 0.046022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models/Towers/Turrets/Cannon_3.fbx
+  artifactKey: Guid(6baa7b29fce0f324ab1726f1af4ddb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Cannon_3.fbx using Guid(6baa7b29fce0f324ab1726f1af4ddb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fdb279497454d203b53311132c4727') in 0.056309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_2.fbx
+  artifactKey: Guid(394548f5cbeca334c8e2db0747f12601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_2.fbx using Guid(394548f5cbeca334c8e2db0747f12601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bef28e094abcd8387863f0c3cdf669c') in 0.059253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_2.fbx
+  artifactKey: Guid(afad1a3cd4a8af64cbe1a17cfa152cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_2.fbx using Guid(afad1a3cd4a8af64cbe1a17cfa152cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea2d1a71b4a8aeae20653afa5646efd') in 0.068543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Corn_1.fbx
+  artifactKey: Guid(076c5f6336b224244a6e3c50a703effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Corn_1.fbx using Guid(076c5f6336b224244a6e3c50a703effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f16ca4deeaf764604e1bec008253af') in 0.078103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_1.fbx
+  artifactKey: Guid(938272b0776644842a521c8420584269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_1.fbx using Guid(938272b0776644842a521c8420584269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bb9198051f23db8145944c641f8b24') in 0.061221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/WoodLog_Moss.fbx
+  artifactKey: Guid(550487bbd9544d3418a79ae9da1dfbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/WoodLog_Moss.fbx using Guid(550487bbd9544d3418a79ae9da1dfbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbeb20762cdbb02f01b5f8ef079bd12e') in 0.087580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Models/Towers/Turrets/Teleporter3.fbx
+  artifactKey: Guid(f62d7200b8bb6554cab4f8cd7c32e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Teleporter3.fbx using Guid(f62d7200b8bb6554cab4f8cd7c32e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3b239f5215f550cb82c1a9d81a8f19') in 0.047696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_4.fbx
+  artifactKey: Guid(ac5b5251955a422478fc55fee102bad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_4.fbx using Guid(ac5b5251955a422478fc55fee102bad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40889960a211a3e83e12360d42bf059b') in 0.095641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/Towers/Turrets/Cannon_2.fbx
+  artifactKey: Guid(5aef435ad1e54d846a434785be1caddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Cannon_2.fbx using Guid(5aef435ad1e54d846a434785be1caddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84bf472fef9f105b0bc1f532a1acd74') in 0.085054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/Towers/Turrets/Long_1.fbx
+  artifactKey: Guid(98bfb84f2ebd7c1489d08d6c13369d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Long_1.fbx using Guid(98bfb84f2ebd7c1489d08d6c13369d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5db535ac01dda0f066dc83466e27df') in 0.074470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_2.fbx
+  artifactKey: Guid(5e54fa798d85389468bf177c041609a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_2.fbx using Guid(5e54fa798d85389468bf177c041609a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ec627d01799ab8a61a9ccdc6a6146e') in 0.041960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_5.fbx
+  artifactKey: Guid(c6307e6f98305fd44b3aef0cf7569617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_5.fbx using Guid(c6307e6f98305fd44b3aef0cf7569617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6f5ba2c763c62ea21f436c50fa76db') in 0.081188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Materials/Missile.mat
+  artifactKey: Guid(490434abd8d386a4eadce82001a293d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Missile.mat using Guid(490434abd8d386a4eadce82001a293d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4df5e75e7552d841de62c6f86d2cbe') in 0.006528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Corn_2.fbx
+  artifactKey: Guid(df327750152d72c4da3a51892da1fff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Corn_2.fbx using Guid(df327750152d72c4da3a51892da1fff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a879c06caa39c8fa1edae3f68bd4e2f') in 0.037532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Towers/Turrets/Laser_1.fbx
+  artifactKey: Guid(5367b7b9242dc1045893ae60728b717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Laser_1.fbx using Guid(5367b7b9242dc1045893ae60728b717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f274b9f54051c6db92edb55cd431aba') in 0.080959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Plant_2.fbx
+  artifactKey: Guid(7e9b1338420dcc24d89b3039e0394be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Plant_2.fbx using Guid(7e9b1338420dcc24d89b3039e0394be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0357c5d40329239efca4ced1ca0d1360') in 0.052312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Bush2.fbx
+  artifactKey: Guid(66c3359a2526a6342b5b383bb8b681ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Bush2.fbx using Guid(66c3359a2526a6342b5b383bb8b681ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c9c33bda1a148187bcb6d98e55dcec') in 0.238694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_5.fbx
+  artifactKey: Guid(cfd6f3c44c2e98248b620942f2871af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_5.fbx using Guid(cfd6f3c44c2e98248b620942f2871af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd5b42be3a8a96202372c17d264db94') in 0.062854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_4.fbx
+  artifactKey: Guid(dec61140efd2f5f488cd3e97992ec33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_4.fbx using Guid(dec61140efd2f5f488cd3e97992ec33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63d4f5f9acf26aedae637f55977906e') in 0.044502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_5.fbx
+  artifactKey: Guid(b22ef33185f130546b823b7cfc005af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_5.fbx using Guid(b22ef33185f130546b823b7cfc005af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796697c64861422b9c3b6598babba725') in 0.059617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Grass2.fbx
+  artifactKey: Guid(f6223465b7199824684c814f315cfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Grass2.fbx using Guid(f6223465b7199824684c814f315cfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6a80311266df7b30a3a9de4cba77b9') in 0.012650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_5.fbx
+  artifactKey: Guid(0915d0004007d8a4a945b32d79d378d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_5.fbx using Guid(0915d0004007d8a4a945b32d79d378d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71efc8c895eab95ed3de04ddd105ffc') in 0.045119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_5.fbx
+  artifactKey: Guid(e5528a3fa33fbfb44968c2e0db7b5e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_5.fbx using Guid(e5528a3fa33fbfb44968c2e0db7b5e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a401f8fc30e4463cfc6601daa74e87') in 0.067494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_10.fbx
+  artifactKey: Guid(9e71aaf6050b1b24da9bacea14e10114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_10.fbx using Guid(9e71aaf6050b1b24da9bacea14e10114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc4fbc07285e1e967d4c151e0807c4f') in 0.097189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CactusFlowers_3.fbx
+  artifactKey: Guid(3f0e2468618035e4c9f86f1cef9a32b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CactusFlowers_3.fbx using Guid(3f0e2468618035e4c9f86f1cef9a32b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3932a83112d280fbbaec76ec9b64c8b') in 0.062330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PalmTree_3.fbx
+  artifactKey: Guid(d0f9f02a6ca37bb4187a9247b7b651da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PalmTree_3.fbx using Guid(d0f9f02a6ca37bb4187a9247b7b651da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d0d720fd979d8b1301286fd616bc01') in 0.051052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PalmTree_4.fbx
+  artifactKey: Guid(2e802fe054b077843a45195382bfb9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PalmTree_4.fbx using Guid(2e802fe054b077843a45195382bfb9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a0100c917594c8a5cf16c36e33f3ef') in 0.068333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Models/Towers/Turrets/Cannon_1.fbx
+  artifactKey: Guid(c82ad039b9ff4ea4e9e5d8051289daeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Cannon_1.fbx using Guid(c82ad039b9ff4ea4e9e5d8051289daeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358e1cfedb304847dbc2b82e3148ed06') in 0.076125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Grass_Short.fbx
+  artifactKey: Guid(8679a96fa875fec45a9e9d5ec779bd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Grass_Short.fbx using Guid(8679a96fa875fec45a9e9d5ec779bd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e069269805dd0b8cf7e7a3822664bc48') in 0.047483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_2.fbx
+  artifactKey: Guid(0f98ceb2b4156dc4584abc38e224064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_2.fbx using Guid(0f98ceb2b4156dc4584abc38e224064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f4b2ff76b38d8237939ce64d902a7f') in 0.051043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Cactus_5.fbx
+  artifactKey: Guid(e46c9cbd457381847a3f031ac134db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Cactus_5.fbx using Guid(e46c9cbd457381847a3f031ac134db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1178a60bf89c705c0410bd2928ed9c51') in 0.058979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_3.fbx
+  artifactKey: Guid(f58af0f4fa19a4340a06d4ca9e46f803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_3.fbx using Guid(f58af0f4fa19a4340a06d4ca9e46f803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7a79bd76320af54a5ee1fedd51108c') in 0.026637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Models/Towers/Turrets/Bomber_2.fbx
+  artifactKey: Guid(2676c9c272627be4aa84f8238e357b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Bomber_2.fbx using Guid(2676c9c272627be4aa84f8238e357b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec651a3ade78414e64b6d8ef2725558f') in 0.112469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Bush1.fbx
+  artifactKey: Guid(e17161e0fa929874ba043c773dc2d59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Bush1.fbx using Guid(e17161e0fa929874ba043c773dc2d59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761b718bea322fb82128d6d55a6899ed') in 0.081518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_3.fbx
+  artifactKey: Guid(a4f6de871359e5d448f4d3dade33ad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_3.fbx using Guid(a4f6de871359e5d448f4d3dade33ad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2834271f92f019d8118192a82184b61c') in 0.046170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_3.fbx
+  artifactKey: Guid(f1ee0c76e13224d4abf188c740d81022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_3.fbx using Guid(f1ee0c76e13224d4abf188c740d81022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7d113754784513a9225b46eee244e5') in 0.110972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_7.fbx
+  artifactKey: Guid(b26fdf95a2a06fd49811ad575d7c423c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_7.fbx using Guid(b26fdf95a2a06fd49811ad575d7c423c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a9d40f172debdd14661a637850141a') in 0.056159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_2.fbx
+  artifactKey: Guid(34bbba63e6610db4f8b81177c6a813ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_2.fbx using Guid(34bbba63e6610db4f8b81177c6a813ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec8528fba1a2f7f182bc60c86a5a3a1') in 0.120952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Tree1.fbx
+  artifactKey: Guid(36a1a6742182db540adbe6d45b0f206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Tree1.fbx using Guid(36a1a6742182db540adbe6d45b0f206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b46d7d492d1a2638ff1b5b2a9bdd18d') in 0.074970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_4.fbx
+  artifactKey: Guid(39e039bda39eda645a73d29e53a5afcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_4.fbx using Guid(39e039bda39eda645a73d29e53a5afcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77855575dc72c78565553b885982b62') in 0.085335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_4.fbx
+  artifactKey: Guid(b8f8a1d4037e1f24a9d2fbbbe9d23a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_4.fbx using Guid(b8f8a1d4037e1f24a9d2fbbbe9d23a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a98d1abb7945253dd25818c6cb57df') in 0.046686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Tree3.fbx
+  artifactKey: Guid(c266256339dccbe4ead26e5c3adb1a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Tree3.fbx using Guid(c266256339dccbe4ead26e5c3adb1a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3fe97fecf9a909ae080e6ff7cc8d0b') in 0.044723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/WoodLog.fbx
+  artifactKey: Guid(ef2060a3b41743943921bc751dd2761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/WoodLog.fbx using Guid(ef2060a3b41743943921bc751dd2761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab219de08f46d4e6c6c8a92cb635eff') in 0.043223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/TreeStump_Snow.fbx
+  artifactKey: Guid(f7d958fe3f58ae044915c6fcd3edd3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/TreeStump_Snow.fbx using Guid(f7d958fe3f58ae044915c6fcd3edd3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad77e6b7958c6a0454b45da12b44169') in 0.014738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Models/Towers/Turrets/Laser_MachineGun.fbx
+  artifactKey: Guid(a1e9f63a2fe7969418b8ed4d23e0dc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Laser_MachineGun.fbx using Guid(a1e9f63a2fe7969418b8ed4d23e0dc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f39e06cd03c6635a3f17857850b1b0') in 0.090424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Models/Towers/Turrets/Teleporter5.fbx
+  artifactKey: Guid(801498b240d86ef4b8a44c83e8b8c5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Teleporter5.fbx using Guid(801498b240d86ef4b8a44c83e8b8c5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e2d519d06254a02d86cf2472820b70') in 0.069554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Models/Towers/Turrets/Bomber_1.fbx
+  artifactKey: Guid(2264a0f813576ed4390e75f3bf590ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Bomber_1.fbx using Guid(2264a0f813576ed4390e75f3bf590ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcebda52f57b636795a404632dccf37') in 0.073155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PalmTree_1.fbx
+  artifactKey: Guid(80d12626dc9ef284fb42169a9f827a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PalmTree_1.fbx using Guid(80d12626dc9ef284fb42169a9f827a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6ae5c47124e10d1c7db17e20369e3f') in 0.074061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CactusFlower_1.fbx
+  artifactKey: Guid(b822378ef070e844aaaa28becbd6c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CactusFlower_1.fbx using Guid(b822378ef070e844aaaa28becbd6c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447890bc1fab00c33eb9ea194ee0c951') in 0.035916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_1.fbx
+  artifactKey: Guid(ac933667444ef8b4c931733de3aac721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_1.fbx using Guid(ac933667444ef8b4c931733de3aac721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe7a08ac6b605ec20669c8f74522e4f') in 0.105760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_1.fbx
+  artifactKey: Guid(0d3aacbcb367586409833a29fd31ce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Snow_1.fbx using Guid(0d3aacbcb367586409833a29fd31ce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aada3966c6564294dde85d93bfdcd33a') in 0.058349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Models/Towers/Turrets/Teleporter2.fbx
+  artifactKey: Guid(955b57f1bce12084996ffee8b77d7da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Teleporter2.fbx using Guid(955b57f1bce12084996ffee8b77d7da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a3ae0a1a787cd3be1efe8f0daead44') in 0.059271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_6.fbx
+  artifactKey: Guid(b71662abaf8cb29428527efec9b8295a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_6.fbx using Guid(b71662abaf8cb29428527efec9b8295a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aa3bb04a771b6fa11e5ee7c813cc73') in 0.070933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_6.fbx
+  artifactKey: Guid(1bc8b92b2d650d94784642b95d5f3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_6.fbx using Guid(1bc8b92b2d650d94784642b95d5f3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bd22896fba2de7e5508853b705c479') in 0.077349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/Towers/Turrets/Cannon_5.fbx
+  artifactKey: Guid(d0e7bc023641add4993bd5ed8abb3451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Cannon_5.fbx using Guid(d0e7bc023641add4993bd5ed8abb3451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd8c8412ab6e7200130edaa7017aace') in 0.081717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BushBerries_2.fbx
+  artifactKey: Guid(8a0a94418ffffc94fa00068affce74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BushBerries_2.fbx using Guid(8a0a94418ffffc94fa00068affce74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895bed0e91a746e36e5301376e592317') in 0.060694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CactusFlowers_4.fbx
+  artifactKey: Guid(0178b0ca167c5a44aa07ae15dbec0171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CactusFlowers_4.fbx using Guid(0178b0ca167c5a44aa07ae15dbec0171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359534674cf5b8a918240930df8503b0') in 0.056608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_4.fbx
+  artifactKey: Guid(9ca42ba02d5a9664c90e5e41c1e7748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_4.fbx using Guid(9ca42ba02d5a9664c90e5e41c1e7748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cff5c422c99e40681213026ac05164') in 0.056805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_7.fbx
+  artifactKey: Guid(20cdc9c3a70c32c4ab29671acdbeadeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_7.fbx using Guid(20cdc9c3a70c32c4ab29671acdbeadeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39f2a73eeb09bbe3053ca448b1b4725') in 0.078102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Tree4.fbx
+  artifactKey: Guid(b8c4952a0ee25fa499309a03c2a3a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Tree4.fbx using Guid(b8c4952a0ee25fa499309a03c2a3a445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd066650eb6174bca4ce93498a0847fa8') in 0.056206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_1.fbx
+  artifactKey: Guid(2f74e976272f4214a8f627a7ca4bee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_1.fbx using Guid(2f74e976272f4214a8f627a7ca4bee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d24f119571a8ce4e487b5c64e2636e') in 0.029612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_2.fbx
+  artifactKey: Guid(2f9d7b716a387e74da6a341274683f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_2.fbx using Guid(2f9d7b716a387e74da6a341274683f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e4037aac635d3add79bfcd753b7c5a') in 0.054030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Models/Towers/Turrets/Laser_Doble.fbx
+  artifactKey: Guid(154af02b950edcf4e8816377862f1599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Laser_Doble.fbx using Guid(154af02b950edcf4e8816377862f1599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7a448644e5f17458b235eb4d68ba91') in 0.080697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Towers/Turrets/Laser_2.fbx
+  artifactKey: Guid(0fc6b895ba74d1045ac077f7ee4e13ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Laser_2.fbx using Guid(0fc6b895ba74d1045ac077f7ee4e13ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d703c40aafe8412fd64907001fe571') in 0.042473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_3.fbx
+  artifactKey: Guid(d66cb57defeb2734aadee6bf2b163de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_3.fbx using Guid(d66cb57defeb2734aadee6bf2b163de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddf6058b603ffc3ad2237f850f89382') in 0.052757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_1.fbx
+  artifactKey: Guid(e96fab61d8c040f4d953f755059f398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_1.fbx using Guid(e96fab61d8c040f4d953f755059f398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5cf3917bc863a52a04389e2d16f25c') in 0.034568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_3.fbx
+  artifactKey: Guid(1ed1f0f705e354d4eb3e7fb8d8349af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_3.fbx using Guid(1ed1f0f705e354d4eb3e7fb8d8349af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2a61a5cc1947648b03ac0f29cb8373') in 0.058219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_1.fbx
+  artifactKey: Guid(b414bd1eedb864d4988294cbc112afd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_1.fbx using Guid(b414bd1eedb864d4988294cbc112afd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f0f9e63b3794bec2be694712c2e645') in 0.078080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_3.fbx
+  artifactKey: Guid(fdf2e79ba1b06a74dafc52fe96cad678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_3.fbx using Guid(fdf2e79ba1b06a74dafc52fe96cad678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c14b464e03176945d553dded1f3339a') in 0.077186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_1.fbx
+  artifactKey: Guid(8f6cb4b03089e8f4998a05a6ef94c56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_1.fbx using Guid(8f6cb4b03089e8f4998a05a6ef94c56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac96141cb7e574daa510b059f1e9195') in 0.059419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Bush_2.fbx
+  artifactKey: Guid(d10370daad96db944b2b45e27b30bab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Bush_2.fbx using Guid(d10370daad96db944b2b45e27b30bab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ee35405fb8d2def7efd7d4db867477') in 0.059394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_5.fbx
+  artifactKey: Guid(5b1b7889de836d84391eb8d4573d84ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_5.fbx using Guid(5b1b7889de836d84391eb8d4573d84ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9968180138a3b4317c47bdd1e42b62da') in 0.075212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Models/Towers/Turrets/GearCannon_1.fbx
+  artifactKey: Guid(29b9a95e75d9bbd4e81fade4c3bd6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/GearCannon_1.fbx using Guid(29b9a95e75d9bbd4e81fade4c3bd6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27af6a070e50f785261c3f5f5e0dee1') in 0.088720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Grass3.fbx
+  artifactKey: Guid(8744406d521d70d4b9e6b84880fab3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Grass3.fbx using Guid(8744406d521d70d4b9e6b84880fab3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b175140f0d572d9c294d63862ec9050') in 0.091018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models/Towers/Turrets/Upwards_2.fbx
+  artifactKey: Guid(20cca038800034e479dce7beec741d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Upwards_2.fbx using Guid(20cca038800034e479dce7beec741d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72452a6bd47cb4a88ab19e75e0f6dcaf') in 0.067312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Towers/Turrets/Gun_8.fbx
+  artifactKey: Guid(224fba90e3ef76e4781d31981a549c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Gun_8.fbx using Guid(224fba90e3ef76e4781d31981a549c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22f0630be67f34433334e3bcec9146b') in 0.073380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_5.fbx
+  artifactKey: Guid(9bf5e8782c7f0834e9cfbb625b3752ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Dead_Snow_5.fbx using Guid(9bf5e8782c7f0834e9cfbb625b3752ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66e34cea28a423b742b7ee2cbaa535c') in 0.101084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_4.fbx
+  artifactKey: Guid(a9c87d08421931744a650948de39ab87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_4.fbx using Guid(a9c87d08421931744a650948de39ab87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b5941f853ce0009fbd1212c3142835') in 0.048326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_4.fbx
+  artifactKey: Guid(6a58153da8affb9439a7288ad564492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_4.fbx using Guid(6a58153da8affb9439a7288ad564492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9717c2333ca73646c138299fa6b8f489') in 0.046016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/Towers/Turrets/Upwards_3_.fbx
+  artifactKey: Guid(b5db9d2849b29dc40993ab1538aad4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Upwards_3_.fbx using Guid(b5db9d2849b29dc40993ab1538aad4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5565ce2642be9867a5f1b4b51d956821') in 0.077422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Cactus_4.fbx
+  artifactKey: Guid(1565ea486c8a43d4887164149e1a518e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Cactus_4.fbx using Guid(1565ea486c8a43d4887164149e1a518e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace7d0dbdb1b32bd8c22240e8e4fc390') in 0.083025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_1.fbx
+  artifactKey: Guid(bc8c6ec345b4dad4fb39b12c1499b4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_1.fbx using Guid(bc8c6ec345b4dad4fb39b12c1499b4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b37b30cd24d588c01f47b6873fda018') in 0.054748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_2.fbx
+  artifactKey: Guid(f4e839831a063e34c8a8b229eb1dcdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Dead_Snow_2.fbx using Guid(f4e839831a063e34c8a8b229eb1dcdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15409e3f38f6a7dc8d0fb1f4ca9691e4') in 0.063028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Materials/RadiusVisualizer.mat
+  artifactKey: Guid(95ba27472b677854b81a7e33e8fa1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RadiusVisualizer.mat using Guid(95ba27472b677854b81a7e33e8fa1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f01b51e3b087e9a5dd6085c3a8bbb4') in 0.005143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_4.fbx
+  artifactKey: Guid(1689b19ad93ba074f9cf36c0c506c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_4.fbx using Guid(1689b19ad93ba074f9cf36c0c506c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20183b448e132bc0964b3774721a21f') in 0.052744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Models/Towers/Turrets/Long_2.fbx
+  artifactKey: Guid(64c31e53c74a38d47896852377b6033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Long_2.fbx using Guid(64c31e53c74a38d47896852377b6033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fb6eaeb13c5b7afcb644eef5684fc8') in 0.068336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Models/Towers/Turrets/Cannon_6.fbx
+  artifactKey: Guid(2104697c9df78c544a6cc0e41d565b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Cannon_6.fbx using Guid(2104697c9df78c544a6cc0e41d565b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37589211626ed9328d90374ffc391137') in 0.143164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_5.fbx
+  artifactKey: Guid(4c22f4592625c1243863d56ee8a7e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/PineTree_Snow_5.fbx using Guid(4c22f4592625c1243863d56ee8a7e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c325c4399b8f01b2aec8786f33d2189c') in 0.033533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/Towers/Turrets/Cannon_4.fbx
+  artifactKey: Guid(0a81c95421c6ae64a8b92297468997ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Towers/Turrets/Cannon_4.fbx using Guid(0a81c95421c6ae64a8b92297468997ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f7d47addca145b15e6ae5929d629eb') in 0.394331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_5.fbx
+  artifactKey: Guid(053cb6b1b71814048ad698540b405214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_5.fbx using Guid(053cb6b1b71814048ad698540b405214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f75f32f22982f98f0778a9f901d68e') in 0.078210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Bush_Snow_2.fbx
+  artifactKey: Guid(c3873362a7d5ec44f88d1f3da6b07c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Bush_Snow_2.fbx using Guid(c3873362a7d5ec44f88d1f3da6b07c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4928df24c41220e4c0d8c33a6f3b14c') in 0.052424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_2.fbx
+  artifactKey: Guid(6b3ffa65f75310b4aaaa699607b1b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_2.fbx using Guid(6b3ffa65f75310b4aaaa699607b1b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545510019a184407780fcb857a1c81ea') in 0.064700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_3.fbx
+  artifactKey: Guid(4e8d355becaed054ba13a0d8bc311259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Willow_Snow_3.fbx using Guid(4e8d355becaed054ba13a0d8bc311259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68881ea7c215313580f26a48ab301570') in 0.027016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Bush_Snow_1.fbx
+  artifactKey: Guid(d334af3b7b5459e4cb54ce3c8ef38ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Bush_Snow_1.fbx using Guid(d334af3b7b5459e4cb54ce3c8ef38ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bb78723353a6c860d7e02c3d7a819d') in 0.032074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Flowers.fbx
+  artifactKey: Guid(688b614887ebe8c4ea275c66c3d75859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Flowers.fbx using Guid(688b614887ebe8c4ea275c66c3d75859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ed0edd9981f1b622d6d43741e6f886') in 0.043035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_3.fbx
+  artifactKey: Guid(2164c7a2764d705468276829b9f11903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/BirchTree_Autumn_3.fbx using Guid(2164c7a2764d705468276829b9f11903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76c80820526c975dede272417abc7e') in 0.022019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(7cc9b2ce8612e1346b5f913771bd9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black.mat using Guid(7cc9b2ce8612e1346b5f913771bd9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ec2e60a31642dc33770e0408e7d0fd') in 0.029602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_1.fbx
+  artifactKey: Guid(988bde76b14de304cb0769952c0d518c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/Rock_Snow_1.fbx using Guid(988bde76b14de304cb0769952c0d518c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4186885e260a744932627e611d46c40') in 0.018182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models/Enemies/Simple Nature Pack/Grass1.fbx
+  artifactKey: Guid(9db0f58386b84fc4c93acf02b6293d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Simple Nature Pack/Grass1.fbx using Guid(9db0f58386b84fc4c93acf02b6293d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bd88414cb197e395fef71d903debc6') in 0.031016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_1.fbx
+  artifactKey: Guid(951544d21e163324aa27d7fc4e9672d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Snow_1.fbx using Guid(951544d21e163324aa27d7fc4e9672d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921952ea37a47a593709e6d0b24e9745') in 0.043485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_2.fbx
+  artifactKey: Guid(260a9479d4aff204ca9af2e158b310fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Ultimate Nature Pack/CommonTree_Dead_Snow_2.fbx using Guid(260a9479d4aff204ca9af2e158b310fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9757ae1c3d5ffa795aead6e8fd32793') in 0.025696 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001283 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 5.960100 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.055000 ms MarkObjects: 5.601400 ms  DeleteObjects: 0.021300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002035 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 5.378400 ms (FindLiveObjects: 0.276100 ms CreateObjectMapping: 0.043200 ms MarkObjects: 5.037400 ms  DeleteObjects: 0.019000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2329.
+Total: 5.385800 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.041800 ms MarkObjects: 5.050300 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 5.193800 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.057200 ms MarkObjects: 4.815300 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 5.190500 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.041400 ms MarkObjects: 4.931400 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 5.691500 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.045400 ms MarkObjects: 5.374700 ms  DeleteObjects: 0.026700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 5.597500 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.056600 ms MarkObjects: 5.220600 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1022.141143 seconds.
+  path: Assets/Scripts/Utilities/OnEnable.cs
+  artifactKey: Guid(d73c8758be363004daf3a25cd7f8a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utilities/OnEnable.cs using Guid(d73c8758be363004daf3a25cd7f8a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c108b14c519656e6feee81af2d789780') in 0.005281 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 5.146900 ms (FindLiveObjects: 0.221300 ms CreateObjectMapping: 0.043700 ms MarkObjects: 4.864200 ms  DeleteObjects: 0.016800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.382623 seconds.
+  path: Assets/Scripts/Utilities/OnEnable.cs
+  artifactKey: Guid(d73c8758be363004daf3a25cd7f8a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utilities/OnEnable.cs using Guid(d73c8758be363004daf3a25cd7f8a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b2486f736ca8d9bb4ec106aabf5ee1') in 0.004269 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 5.289400 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.043800 ms MarkObjects: 5.001100 ms  DeleteObjects: 0.025100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.345635 seconds.
+  path: Assets/Scripts/Utilities/OnStart.cs
+  artifactKey: Guid(d73c8758be363004daf3a25cd7f8a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utilities/OnStart.cs using Guid(d73c8758be363004daf3a25cd7f8a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8508002efd7146977b3df914ae43b9') in 0.006425 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 6.915400 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.059100 ms MarkObjects: 6.473100 ms  DeleteObjects: 0.024900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 5.587200 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.064000 ms MarkObjects: 5.264600 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.634299 seconds.
+  path: Assets/Scripts/Utilities/OnStart.cs
+  artifactKey: Guid(d73c8758be363004daf3a25cd7f8a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utilities/OnStart.cs using Guid(d73c8758be363004daf3a25cd7f8a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ae96ed7384bf664b10bee5464662ec') in 0.004399 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.751 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 5.225100 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.039200 ms MarkObjects: 4.907900 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 6.591900 ms (FindLiveObjects: 0.292200 ms CreateObjectMapping: 0.046500 ms MarkObjects: 6.227200 ms  DeleteObjects: 0.024300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001293 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 5.609800 ms (FindLiveObjects: 0.276900 ms CreateObjectMapping: 0.056700 ms MarkObjects: 5.254300 ms  DeleteObjects: 0.020800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 5.415600 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.044900 ms MarkObjects: 5.162900 ms  DeleteObjects: 0.020400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 5.204400 ms (FindLiveObjects: 0.396000 ms CreateObjectMapping: 0.062100 ms MarkObjects: 4.723000 ms  DeleteObjects: 0.022200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001395 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.740 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2372.
+Total: 5.251000 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.045700 ms MarkObjects: 4.998700 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2375.
+Total: 5.485600 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.057200 ms MarkObjects: 5.096800 ms  DeleteObjects: 0.023300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 6.324100 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.046000 ms MarkObjects: 5.818800 ms  DeleteObjects: 0.027600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 569.676365 seconds.
+  path: Assets/Prefabs/Projectiles/Missile.prefab
+  artifactKey: Guid(ec7d5eabad4821348b54e545cffdc014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Missile.prefab using Guid(ec7d5eabad4821348b54e545cffdc014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952256c655e19d917fef961eca24aa67') in 0.055995 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001514 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 5.002700 ms (FindLiveObjects: 0.254400 ms CreateObjectMapping: 0.043800 ms MarkObjects: 4.683300 ms  DeleteObjects: 0.020100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
